@@ -121,11 +121,11 @@ A comprehensive food delivery platform built with Spring Boot backend, Vue.js ad
 ## 💳 WeChat Pay Integration
 
 <div align="center">
-  <img src="image/payment/payment_1.png" width="175" alt="Payment Step 1" style="margin: 5px;"/>
-  <img src="image/payment/payment_2.png" width="175" alt="Payment Step 2" style="margin: 5px;"/>
-  <img src="image/payment/payment_3.png" width="175" alt="Payment Step 3" style="margin: 5px;"/>
-  <img src="image/payment/payment_4.png" width="175" alt="Payment Step 4" style="margin: 5px;"/>
-  <img src="image/payment/payment_5.png" width="175" alt="Payment Step 5" style="margin: 5px;"/>
+  <img src="image/payment/payment_1.png" width="150" alt="Payment Step 1" style="margin: 5px;"/>
+  <img src="image/payment/payment_2.png" width="150" alt="Payment Step 2" style="margin: 5px;"/>
+  <img src="image/payment/payment_3.png" width="150" alt="Payment Step 3" style="margin: 5px;"/>
+  <img src="image/payment/payment_4.png" width="150" alt="Payment Step 4" style="margin: 5px;"/>
+  <img src="image/payment/payment_5.png" width="150" alt="Payment Step 5" style="margin: 5px;"/>
 </div>
 
 <div align="center">

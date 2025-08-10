@@ -29,50 +29,67 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    // 注释掉整个proxy配置
-    /*
-    proxy: {
-      '/api': {
-        target: 'http://localhost:8080',
-        ws: false,
-        secure: false,
-        changeOrigin: true,
-        pathRewrite:{
-          '^/api':'/admin'
-        }
-      },
-      '/workspace': {
-        target: 'http://localhost:8080',
-        ws: false,
-        secure: false,
-        changeOrigin: true,
-        pathRewrite:{
-          '^/workspace':'/admin/workspace'
-        }
-      },
-      '/report': {
-        target: 'http://localhost:8080',
-        ws: false,
-        secure: false,
-        changeOrigin: true,
-        pathRewrite:{
-          '^/report':'/admin/report'
-        }
-      },
-      '/employee': {
-        target: 'http://localhost:8080',
-        ws: false,
-        secure: false,
-        changeOrigin: true
-      },
-      '/admin': {
-        target: 'http://localhost:8080',
-        ws: false,
-        secure: false,
-        changeOrigin: true
-      }
-    }
-    */
+    // 启用代理配置
+    // proxy: {
+    //   '/api': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite:{
+    //       '^/api':'/admin'
+    //     }
+    //   },
+    //   '/workspace': {
+    //     // target: 'http://localhost:8080',
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite:{
+    //       '^/workspace':'/admin/workspace'
+    //     }
+    //   },
+    //   '/report': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite:{
+    //       '^/report':'/admin/report'
+    //     }
+    //   },
+    //   '/order': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite:{
+    //       '^/order':'/admin/order'
+    //     }
+    //   },
+    //   '/shop': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite:{
+    //       '^/shop':'/admin/shop'
+    //     }
+    //   },
+    //   '/employee': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true
+    //   },
+    //   '/admin': {
+    //     target: 'http://localhost:8080',
+    //     ws: false,
+    //     secure: false,
+    //     changeOrigin: true
+    //   }
+    // }
   },
   chainWebpack: (config) => {
     config.resolve.symlinks(true) // 修复热更新失效

@@ -133,16 +133,18 @@ export default {
 				})
 			}
 		})
-		if (options) {
-			if (!options.status && !options.formOrder) {
-				this.getData()
-			}
-		}
+		// if (options) {
+		// 	if (!options.status && !options.formOrder) {
+		// 		this.getData()
+		// 	}
+		// }
+		this.getData()
 	},
 	onShow() {
-		if (this.token()) {
-			this.init()
-		}
+		// if (this.token()) {
+		// 	this.init()
+		// }
+		this.init()
 	},
 	methods: {
 		//   vuex储存信息

@@ -636,7 +636,6 @@
   min-height: 100vh;
 }
 
-
 .data-v-57280228 ::-webkit-scrollbar {
   display: none !important;
   width: 0 !important;

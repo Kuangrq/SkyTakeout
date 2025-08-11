@@ -51,20 +51,20 @@
   letter-spacing: 0px;
   line-height: 44rpx;
 }
-.add_edit .form_address .form_item.data-v-174d7646 .is-input-border {
+.add_edit .form_address .form_item.data-v-174d7646  .is-input-border {
   border: 0 none;
   border-radius: none;
   min-height: auto;
   line-height: 16rpx;
 }
-.add_edit .form_address .form_item.data-v-174d7646 .is-input-border .uni-easyinput__content-input {
+.add_edit .form_address .form_item.data-v-174d7646  .is-input-border .uni-easyinput__content-input {
   padding-left: 0 !important;
   font-size: 26rpx;
 }
-.add_edit .form_address .form_item.data-v-174d7646 .is-input-border .uni-easyinput__placeholder-class {
+.add_edit .form_address .form_item.data-v-174d7646  .is-input-border .uni-easyinput__placeholder-class {
   font-size: 26rpx;
 }
-.add_edit .form_address .form_item.data-v-174d7646 .is-input-border .uni-easyinput__content-textarea {
+.add_edit .form_address .form_item.data-v-174d7646  .is-input-border .uni-easyinput__content-textarea {
   padding: 18rpx 0 0;
   width: 100%;
   min-height: 60rpx;
@@ -212,10 +212,10 @@
 .customer-box.data-v-174d7646 {
   height: 100vh;
 }
-.data-v-174d7646 .uni-icons {
+.data-v-174d7646.uni-icons {
   font-size: 24px !important;
 }
-.data-v-174d7646 .content-clear-icon {
+.data-v-174d7646.content-clear-icon {
   display: inline-block;
   width: 36rpx;
   height: 36rpx;
@@ -223,4 +223,3 @@
   padding-top: 4rpx;
   padding-bottom: 4rpx;
 }
-

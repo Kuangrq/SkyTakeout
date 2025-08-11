@@ -482,4 +482,3 @@ radio .wx-radio-input.wx-radio-input-checked::before {
   font-size: 20rpx;
   color: #666;
 }
-

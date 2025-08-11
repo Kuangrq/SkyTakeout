@@ -832,7 +832,7 @@
 }
 .data-v-2983afba .pickerCon {
   display: flex;
-  height: calc(30vh);
+  height: 30vh;
   color: #666;
   font-size: 28rpx;
 }
@@ -947,4 +947,3 @@
   font-size: 24rpx;
   color: #888;
 }
-

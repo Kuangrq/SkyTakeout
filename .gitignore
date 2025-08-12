@@ -90,3 +90,16 @@ application-dev.yml
 # *.gif
 # *.mp4
 # *.mp3 
+
+# UniApp构建产物
+project-rjwm-weixin-uniapp-develop-wsy/unpackage/
+project-rjwm-weixin-uniapp-develop-wsy/dist/
+
+# Source Map文件
+*.js.map
+*.css.map
+
+# 构建目录
+**/dist/
+**/build/
+**/unpackage/ 
